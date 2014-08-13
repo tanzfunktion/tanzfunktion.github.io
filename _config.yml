@@ -1,11 +1,9 @@
 # Site settings
-title: Your soundblog
+title: Tanzfunktion
 email: your-email@domain.com
-description: "Your soundblog description"
+description: ""
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://tanzfunktion.de"
 
 # Build settings
 markdown: kramdown
