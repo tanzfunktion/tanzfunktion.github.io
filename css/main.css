@@ -39,8 +39,9 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  padding: 45px 0 30px 0;
+  padding: 60px 0 30px 0;
   background-color: white;
+  text-align: center;
 }
 
 .site-title,
