@@ -1,6 +1,11 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
+@font-face {
+  font-family: Foobar Pro;
+  src: url("../assets/Foobar Pro-Regular.otf") format("opentype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +14,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Foobar Pro, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
