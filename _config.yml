@@ -5,6 +5,8 @@ description: ""
 baseurl: ""
 url: "http://tanzfunktion.de"
 
+soundcloud_username: tanzfunktion
+
 # Build settings
 markdown: kramdown
 permalink: pretty
