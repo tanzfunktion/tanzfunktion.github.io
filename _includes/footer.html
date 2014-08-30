@@ -3,7 +3,21 @@
   <div class="wrap">
 
     <div class="footer-col-1 column">
-      <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Ftanzfunktion&color=orange_transparent&size=32" style="width: 32px; height: 32px; margin-top: -4px;"></iframe>
+      {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
+      {% endif %}
+      {% if site.bitbucket_username %}
+      <a href="https://bitbucket.org/{{ site.bitbucket_username }}"><i class="fa fa-bitbucket"></i></a>
+      {% endif %}
+      {% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
+      {% endif %}
+      {% if site.instagram_username %}
+      <a href="https://instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram"></i></a>
+      {% endif %}
+      {% if site.soundcloud_username %}
+      <a href="https://soundcloud.com/{{ site.soundcloud_username }}"><i class="fa fa-soundcloud"></i></a>
+      {% endif %}
     </div>
 
     <div class="footer-col-2 column">
